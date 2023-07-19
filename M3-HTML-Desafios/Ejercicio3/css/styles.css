@@ -1,0 +1,94 @@
+:root{
+    --Mulish-font:'Mulish', sans-serif;
+
+    /*font size*/
+    --fs-14:18.66px;
+    --fs-15:20px;
+    --fs-18:24px;
+
+    /*font weight*/
+    --fw-regular:400;
+    --fw-semibold:600;
+    --fw-bold:700;
+
+    /*colors*/
+    --c-h1:#04146c;
+    --c-text-input:#414166;
+    --c-blue: #0a2ff1;
+    --c-white:#ffffff;      
+
+    font-family: var(--Mulish-font);
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;    
+}
+
+h1{
+    font-weight: var(--fw-bold);    
+    font-size: var(--fs-18);
+    color: var(--c-h1);
+
+    margin: 20px 0;
+}
+
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;    
+}
+
+input{
+    font-weight: var(--fw-regular);    
+    font-size: var(--fs-14);
+    color: var(--c-text-input);
+    font-family: var(--Mulish-font);
+        
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    font-weight: var(--fw-semibold);    
+    font-size: var(--fs-15);
+    background-color: var(--c-blue);
+    color: var(--c-white);
+    font-family: var(--Mulish-font);
+
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+p{
+    font-weight: var(--fw-regular);    
+    font-size: var(--fs-14);    
+    color: var(--c-blue);
+
+    margin:20px 0 0;
+
+}
+
+hr{
+    width: 100%;
+    margin-top: 10px;
+}

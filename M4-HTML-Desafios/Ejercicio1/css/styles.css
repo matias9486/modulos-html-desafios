@@ -1,0 +1,84 @@
+:root{
+    --Mulish-font:'Mulish', sans-serif;
+
+    /*font size*/
+    --fs-24:32.64px;
+    --fs-17:22.66px;    
+
+    /*font weight*/
+    --fw-regular:400;
+    --fw-semibold:600;
+    --fw-bold:700;
+
+    /*colors*/
+    --c-h1:#04146c;
+    --c-text-input:#414166;
+    --c-background: #15163d;
+    --c-white:#ffffff;      
+
+    font-family: var(--Mulish-font);
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    background-image: url('../images/M4-desafio1-fondo.png');
+}
+
+.contenedor{
+    width: 50%;
+    margin:10px auto;
+    background-image: url('../images/M4-desafio1-fondo-form.png');
+    background-repeat: no-repeat;        
+    
+    padding: 20px;    
+}
+
+h1{
+    font-weight: var(--fw-bold);    
+    font-size: var(--fs-24);
+    color: var(--c-h1);
+    margin: 20px 0;    
+}
+
+form{    
+    background-color: var(--c-white);
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    font-weight: var(--fw-regular);    
+    font-size: var(--fs-17);
+    color: var(--c-text-input);    
+    
+    box-sizing: border-box;
+    width: 500px;
+    height: 50px;
+            
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+
+button{
+    font-weight: var(--fw-semibold);    
+    font-size: var(--fs-17);
+    background-color: var(--c-background);
+    color: var(--c-white);
+    border: 1px solid var(--c-background);
+
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}

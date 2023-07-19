@@ -1,0 +1,168 @@
+:root{
+    --font-roboto:'Roboto', sans-serif;
+    --font-roboto-Slab:'Roboto Slab', sans-serif;
+
+    --fw-regular:400;
+    --fw-bold:700;
+
+    --fs-18:24px;
+    --fs-23:30.66px;
+    --fs-24:32px;
+    --fs-26:34.66px;
+    --fs-34:45.33px;
+    --fs-72:96px;
+    
+    --clr-primary:#0a2ff1;
+    --clr-secondary:#04146c;
+    
+    --clr-orange:#f98500;
+    --clr-purple:#2c00cc;
+    --clr-white:#ffffff;
+    --clr-red:#d5353c;
+
+    color: var(--clr-secondary);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-top: 30px solid #3957f1;
+}
+
+nav{
+    display: flex;
+}
+
+ul{    
+    display: flex;    
+    align-items: center;
+    font-size: var(--fs-18);            
+}
+
+li{
+    padding: 10px 20px;
+    list-style:none;
+    text-transform: uppercase;
+
+    font-family: var(--font-roboto);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-18);
+}
+
+a{
+    text-decoration: none;        
+}
+
+#logo{    
+    width: 5%;
+    margin:0 20px;    
+}
+
+main{
+    margin: 0 20px;
+}
+
+.activo{
+    font-weight: var(--fw-bold);
+}
+
+p{
+    margin: 20px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;    
+}
+
+input{
+    width: 500px;
+    height: 50px;    
+    margin: 10px 0 20px;    
+}
+
+textarea{
+    width: 500px;
+    height: 100px;
+    
+    margin: 10px 0 20px;    
+}
+
+/*clases*/
+/*font sizes*/
+.fs-23{
+    font-size: var(--fs-23);
+}
+.fs-24{
+    font-size: var(--fs-24);
+}
+
+.fs-34{
+    font-size: var(--fs-34);
+}
+
+/*font weight*/
+.fw-bold{
+    font-weight: var(--fw-bold);
+}
+
+.fw-regular{
+    font-weight: var(--fw-regular);
+}
+
+/*font style*/
+.roboto{
+    font-family: var(--font-roboto);
+}
+
+.roboto-Slab{
+    font-family: var(--font-roboto-Slab);
+}
+
+/*text color*/
+.purple-text{
+    color:var(--clr-purple);
+}
+
+.blue-text{
+    color:var(--clr-secondary);
+}
+
+.white-text{
+    color: var(--clr-white);
+}
+
+.red-text{
+    color: var(--clr-red);
+}
+
+/*button color*/
+.orange-button{
+    background-color: var(--clr-orange);    
+}
+
+.purple-button{
+    background-color: var(--clr-purple);    
+}
+
+.button{
+    width: 200px;    
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 50px 10px 0;
+}
+
+footer{
+    padding: 20px 40px;
+    background-color: #3957f1;
+    background-image: url('../images/M5-logo-blanco.svg');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 50px;
+    background-position-y: center;    
+    height: 100px;   
+}

@@ -1,0 +1,105 @@
+:root{
+    --font-roboto:'Roboto', sans-serif;
+    --font-roboto-Slab:'Roboto Slab', serif;
+
+    --fw-regular:400;
+    --fw-bold:700;
+
+    --fs-18:24px;
+    --fs-19:25.33px;
+    --fs-20:26.66px;
+    --fs-44:58.66px;
+
+    --clr-blue:#0a2ff1;
+    --clr-black:#000000;
+    --clr-white:#ffffff;
+    --clr-footer:#15163d;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+header{        
+    height: 750px;
+    width: auto;
+    background-image: url('../images/M4-Desafio3_img-header.png');
+    background-repeat: no-repeat;
+    background-size: contain;            
+}
+
+main{
+    width: 80%;
+    padding: 10px;
+    margin: auto; 
+
+}
+
+div{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-family: var(--font-roboto-Slab);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-44);
+    color: var(--clr-blue);
+
+    margin-bottom: 60px;
+}
+
+p{
+    font-family: var(--font-roboto);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-19);
+    color: var(--clr-black);
+    
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: var(--font-roboto);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-19);
+    color: var(--clr-blue);
+}
+
+p+p{
+    font-family: var(--font-roboto);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-18);
+    color: var(--clr-black);
+}
+
+footer{
+    width: 100%;
+    background-color: var(--clr-footer);
+    height: 20px;
+
+    margin-top: 20px;
+}
+
+button{
+    font-family: var(--font-roboto);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-20);
+    background-color: var(--clr-blue);
+    color: white;
+
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: auto;
+
+    
+    margin-bottom: 60px;
+}

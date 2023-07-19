@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>        
+        <nav>            
+            <img id="logo" src="./images/M5-logo-azul.svg" alt="logo-WH">
+            <ul>                
+                <li><a href="./index.html">Home</a></li>
+                <li class="activo"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <main>
+        <div>
+            <p class="roboto-Slab fw-bold fs-34 purple-text">¿Querés que nos contactemos con vos?</p>
+            <p class="roboto fw-regular fs-23 blue-text">Dejanos tu consulta</p>
+            <form action="">
+                <label class="roboto fw-bold fs-23 blue-text" for="nombre">Nombre completo<span class="red-text"> *</span></label>
+                <input class="roboto fw-regular fs-23" type="text" name="nombre" id="nombre" required>
+
+                <label class="roboto fw-bold fs-23 blue-text" for="email">Email<span class="red-text"> *</span></label>
+                <input class="roboto fw-regular fs-23" type="email" name="email" id="email" placeholder="email@educacionit.com" required>
+
+                <label class="roboto fw-bold fs-23 blue-text" for="comentario">Comentario<span class="red-text"> *</span></label>
+                <textarea class="roboto fw-regular fs-23" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+                <div>
+                    <button class="button orange-button roboto-Slab fw-regular fs-24 white-text" type="reset">Resetear</button>
+                    <button class="button purple-button roboto-Slab fw-regular fs-24 white-text">Enviar</button>
+                </div>                
+            </form>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

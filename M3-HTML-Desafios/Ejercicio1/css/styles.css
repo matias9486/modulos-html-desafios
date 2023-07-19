@@ -1,0 +1,45 @@
+:root{
+    --mulish-font:'Mulish', sans-serif;
+
+    --fs-28:37.48px;
+    --fs-16:21.56px;
+    --fs-14:19.97px;
+
+    --h1-color:#04146c;
+    --h2-color:#0a2ff1;
+    --p-color:#04146c;
+
+    font-family: var(--mulish-font);
+}
+
+img{
+    width: 55px;
+    margin-right: 15px;      
+}
+
+h1{
+    font-weight: 900;
+    color: var(--h1-color);
+}
+
+h2{
+    font-weight: 700;
+    color: var(--h2-color);
+    text-transform: uppercase;
+}
+
+p{
+    font-weight: 400;
+    color: var(--p-color);
+
+    width: 40%;
+    margin:0 0 0 70px;
+}
+
+section{
+    padding: 10px 0;
+}
+
+.box-flex{
+    display: flex;
+}
